@@ -37,6 +37,15 @@ namespace KataTest
             var target = new int[] { 0, 5 };
             testing(nums, targetSum, target);
         }
-        
+
+        [TestMethod]
+        public void input_2_6_3_9_5_target_is_11_shouldReturn_0_3()
+        {
+            var nums = new int[] { 2, 6, 3, 9, 5};
+            var targetSum = 11;
+            var target = new int[] { 0, 3 };
+            testing(nums, targetSum, target);
+
+        }
     }
 }
